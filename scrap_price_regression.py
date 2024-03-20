@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Loading the dataset (Could also pull from API with API key here)
-df = pd.read_csv('C:/Users/Dustin Winter/OneDrive/Data/scrap price.csv')
+df = pd.read_csv('scrap price.csv')
 
 # Specifying variables (dependent and independent)
 X = df[['carwidth', 'carheight', 'stroke']]
